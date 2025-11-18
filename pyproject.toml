@@ -1,0 +1,25 @@
+[project]
+name = "python_code"
+version = "1.0.0"
+description = ""
+authors = [
+    {name = "yaacoub"}
+]
+readme = "README.md"
+requires-python = "3.11.4"
+dependencies = [
+    "flask (>=3.1.2,<4.0.0)",
+    "pandas (>=2.3.3,<3.0.0)",
+    "requests (>=2.32.5,<3.0.0)",
+    "fastsearch (>=0.0.4,<0.0.5)"
+]
+
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry]
+package-mode = false
