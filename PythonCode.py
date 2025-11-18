@@ -4,11 +4,13 @@ import pandas as pd
 
 def factoriel(nombre :int )->int :
    if (nombre ==0 or nombre ==1) : 
-    
-      return 1
+     print("release")
+   return 1
       
-   else :
-      return nombre * factoriel(nombre-1)
+    else : 
+   
+
+    return nombre * factoriel(nombre-1)
  
 def get_age(name :str)->int :
    
