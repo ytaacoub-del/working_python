@@ -10,7 +10,7 @@ def factoriel(nombre :int )->int :
     return nombre * factoriel(nombre-1)
  
 def get_age(name :str)->int :
-   
+   print("ok")
    dataset= pd.read_csv("C:/Users/PC/Documents/DataFactory/Code/name_age.csv")
    return dataset
 
